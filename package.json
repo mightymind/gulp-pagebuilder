@@ -1,6 +1,6 @@
 {
   "name": "gulp-pagebuilder",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Gulp-plugin for build files with include other files",
   "main": "index.js",
   "repository": {
