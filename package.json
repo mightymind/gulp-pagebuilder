@@ -1,20 +1,38 @@
 {
-  "name": "gulp-pagebuilder",
-  "version": "0.1.1",
+  "author": {
+    "name": "azbn_ru"
+  },
+  "bugs": {
+    "url": "https://github.com/mightymind/gulp-pagebuilder/issues"
+  },
+  "dependencies": {
+    "gulp-util": "*",
+    "through2": "*"
+  },
   "description": "Gulp-plugin for build files with include other files",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "0fa4fa9cfe59b17d574d32d102e3de064636468a",
+    "tarball": "http://registry.npmjs.org/gulp-pagebuilder/-/gulp-pagebuilder-0.1.2.tgz"
+  },
+  "gitHead": "979cadfe8cb36721529e559a63a394972b98b9c6",
+  "homepage": "https://github.com/mightymind/gulp-pagebuilder#readme",
+  "installable": true,
+  "license": "ISC",
   "main": "index.js",
+  "maintainers": [
+    {
+      "name": "azbn_ru",
+      "email": "devazbn@yandex.ru"
+    }
+  ],
+  "name": "gulp-pagebuilder",
+  "optionalDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mightymind/gulp-pagebuilder.git"
   },
-  "author": "azbn_ru",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mightymind/gulp-pagebuilder/issues"
-  },
-  "homepage": "https://github.com/mightymind/gulp-pagebuilder#readme",
-  "dependencies": {
-    "gulp-util": "*",
-    "through2": "*"
-  }
+  "scripts": {},
+  "version": "0.1.2"
 }
