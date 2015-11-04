@@ -1,0 +1,20 @@
+{
+  "name": "gulp-pagebuilder",
+  "version": "0.1.0",
+  "description": "Gulp-plugin for build files with include other files",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mightymind/gulp-pagebuilder.git"
+  },
+  "author": "azbn_ru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mightymind/gulp-pagebuilder/issues"
+  },
+  "homepage": "https://github.com/mightymind/gulp-pagebuilder#readme",
+  "dependencies": {
+    "gulp-util": "*",
+    "through2": "*"
+  }
+}
