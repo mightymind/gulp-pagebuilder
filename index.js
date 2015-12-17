@@ -51,7 +51,7 @@ function pageBuilder(root) {
 		prm_str = prm_str || '';
 		if(fs.existsSync(pb.getFileName(file))) {
 			var file_handle = fs.openSync(pb.getFileName(file), 'r', 0644);
-			code.html = fs.readSync(file_handle, 10240, null, 'utf8')[0];
+			code.html = fs.readSync(file_handle, 10485760, null, 'utf8')[0];
 			fs.close(file_handle);
 			code.html = code.html.replace(pb.regexp.base, pb.basereplacer);
 		}
